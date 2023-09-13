@@ -35,35 +35,27 @@ public class ItemList {
 
     // Define Getter Setter
 
-    public int getId() {
-        return id;
-    }
-
     public String getItemName() {
         return itemName;
+    }
+
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
     }
 
     public String getOwner() {
         return owner;
     }
 
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
     public String getContact() {
         return contact;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setItemName(String firstName) {
-        this.itemName = itemName;
-    }
-
-    public void setOwner(String lastName) {
-        this.owner = owner;
-    }
-
-    public void setContact(String email) {
+    public void setContact(String contact) {
         this.contact = contact;
     }
 
