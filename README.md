@@ -3,9 +3,13 @@ Demo project for Camera shop CRUD REST API
 Below are the list of available API
 # Project Setup & Detail
 Frame work: Spring boot
+
 Java version: 17
+
 DB: MySQL server
+
 see DB setup at dbSQL/camerashop_init_DB.txt
+
 default port is 8080
 (port can be changed by update server.port at applicaiton.properties)
 
