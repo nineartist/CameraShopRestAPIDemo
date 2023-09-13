@@ -1,0 +1,27 @@
+CREATE DATABASE  IF NOT EXISTS `camera_shop_directory`;
+USE `camera_shop_directory`;
+--
+-- Table structure for table `item_list`
+--
+
+DROP TABLE IF EXISTS `item_list`;
+
+CREATE TABLE `item_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `item_name` varchar(45) DEFAULT NULL,
+  `owner` varchar(45) DEFAULT NULL,
+  `contact` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+
+--
+-- Data for table `item_list`
+--
+
+INSERT INTO `item_list` VALUES 
+	(1,'NikonA1','Andrews','andrews@shop.com'),
+	(2,'NikonA2','Baumgarten','baumgarten@shop.com'),
+	(3,'NikonB1','Gupta','gupta@shop.com'),
+	(4,'NikonB2','Petrov','petrov@shop.com'),
+	(5,'CanonA1','Vega','vega@shop.com');
+
